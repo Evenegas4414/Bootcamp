@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="cl.exql.SistemaGestion.test.ArchivoServicioTest" time="0.045" tests="2" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\exequ\eclipse-workspace\SistemaGestion\target\test-classes;C:\Users\exequ\eclipse-workspace\SistemaGestion\target\classes;C:\Users\exequ\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.1.1\junit-jupiter-engine-5.1.1.jar;C:\Users\exequ\.m2\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;C:\Users\exequ\.m2\repository\org\junit\platform\junit-platform-engine\1.1.1\junit-platform-engine-1.1.1.jar;C:\Users\exequ\.m2\repository\org\junit\platform\junit-platform-commons\1.1.1\junit-platform-commons-1.1.1.jar;C:\Users\exequ\.m2\repository\org\opentest4j\opentest4j\1.0.0\opentest4j-1.0.0.jar;C:\Users\exequ\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.1.1\junit-jupiter-api-5.1.1.jar;C:\Users\exequ\.m2\repository\org\junit\platform\junit-platform-runner\1.1.1\junit-platform-runner-1.1.1.jar;C:\Users\exequ\.m2\repository\org\junit\platform\junit-platform-launcher\1.1.1\junit-platform-launcher-1.1.1.jar;C:\Users\exequ\.m2\repository\org\junit\platform\junit-platform-suite-api\1.1.1\junit-platform-suite-api-1.1.1.jar;C:\Users\exequ\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\exequ\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="America/Santiago"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Users\exequ\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.2.v20220201-1208\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\exequ\AppData\Local\Temp\surefire4974616544177895677\surefirebooter7866261511196881444.jar C:\Users\exequ\AppData\Local\Temp\surefire4974616544177895677 2022-05-26T18-51-24_061-jvmRun1 surefire5374598080203302897tmp surefire_018444375745304668761tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\exequ\eclipse-workspace\SistemaGestion\target\test-classes;C:\Users\exequ\eclipse-workspace\SistemaGestion\target\classes;C:\Users\exequ\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.1.1\junit-jupiter-engine-5.1.1.jar;C:\Users\exequ\.m2\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;C:\Users\exequ\.m2\repository\org\junit\platform\junit-platform-engine\1.1.1\junit-platform-engine-1.1.1.jar;C:\Users\exequ\.m2\repository\org\junit\platform\junit-platform-commons\1.1.1\junit-platform-commons-1.1.1.jar;C:\Users\exequ\.m2\repository\org\opentest4j\opentest4j\1.0.0\opentest4j-1.0.0.jar;C:\Users\exequ\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.1.1\junit-jupiter-api-5.1.1.jar;C:\Users\exequ\.m2\repository\org\junit\platform\junit-platform-runner\1.1.1\junit-platform-runner-1.1.1.jar;C:\Users\exequ\.m2\repository\org\junit\platform\junit-platform-launcher\1.1.1\junit-platform-launcher-1.1.1.jar;C:\Users\exequ\.m2\repository\org\junit\platform\junit-platform-suite-api\1.1.1\junit-platform-suite-api-1.1.1.jar;C:\Users\exequ\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\exequ\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\exequ"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-01-18"/>
+    <property name="java.home" value="C:\Users\exequ\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.2.v20220201-1208\jre"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\exequ\eclipse-workspace\SistemaGestion"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\exequ\AppData\Local\Temp\surefire4974616544177895677\surefirebooter7866261511196881444.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.2+8"/>
+    <property name="user.name" value="exequ"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-17.0.2+8"/>
+    <property name="localRepository" value="C:\Users\exequ\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\exequ\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.2"/>
+    <property name="user.dir" value="C:\Users\exequ\eclipse-workspace\SistemaGestion"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Users\exequ\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.2.v20220201-1208\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Users/exequ/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.2.v20220201-1208/jre/bin/server;C:/Users/exequ/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.2.v20220201-1208/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Users\exequ\Oracle\db_home\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Users\exequ\platform-tools;C:\Users\exequ\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\exequ\AppData\Local\Programs\Python\Python310\;C:\Users\exequ\AppData\Local\Microsoft\WindowsApps;C:\Users\exequ\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2022.1\bin;;;C:\Users\exequ\eclipse;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="17.0.2+8"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="confirmarImportarTest" classname="cl.exql.SistemaGestion.test.ArchivoServicioTest" time="0.001"/>
+  <testcase name="cargarDatosTest" classname="cl.exql.SistemaGestion.test.ArchivoServicioTest" time="0.033">
+    <failure message="expected: &lt;true&gt; but was: &lt;false&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at cl.exql.SistemaGestion.test.ArchivoServicioTest.cargarDatosTest(ArchivoServicioTest.java:22)
+]]></failure>
+    <system-out><![CDATA[
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+No se encuentra el archivo]]></system-out>
+  </testcase>
+</testsuite>

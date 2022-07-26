@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    color: #ffffff;
+}
+
+
+/*Cabecera con imagen*/
+
+header {
+    background-color: #000000;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-size: 51px/59px;
+    text-align: center;    
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    padding: 7px;
+}
+
+/*bg-hero*/
+
+#bg-hero-img {
+    width: 100%;
+    height: 100%;
+    min-height: 727px;
+    object-fit: cover;
+}
+
+/*Descripcion con imagen a la derecha**/
+.desc-section {
+    background-color: #000000;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 300;
+    padding: 45px 220px;
+}
+
+#desc-text {
+    margin: 32px 0px;
+}
+
+.desc-clear {
+    overflow: auto;
+}
+
+#iguana-1 {
+    margin-left: 156px;
+    float: right;
+    min-height: 237px;
+}
+
+
+/*Tres caracteristicas con sus iconos*/
+
+.icons-section {
+    background-color: #1e1a13;
+    opacity: 0.98;
+    padding: 50px 323px;
+}
+
+h2 {
+    font-size: 40px 47px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.icons-clear::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.caja {
+    float: left;
+    width: 33.33%;
+    text-align: center;
+}
+
+.caja p {
+    font-size: 25px 30px;
+    font-weight: 300;
+    margin-top: 16px;
+}
+/*Galeria de 3 imagenes*/
+.galeria-section {
+    background-color: #000000;
+    padding: 73px 260px;
+}
+
+.galeria-img {
+    float: left;
+    margin: 0px 8px;
+}
+
+.galeria-clear::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/*Final*/
+
+footer {
+    background-color: #1e1a13;
+    opacity: 0.94;
+    text-align: center;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 300;
+    font-size: 20px 24px;
+    padding: 40px 0px;
+}
+
+a {
+    text-decoration: none;
+}

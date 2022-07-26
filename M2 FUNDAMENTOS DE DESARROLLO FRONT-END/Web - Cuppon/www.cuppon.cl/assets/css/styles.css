@@ -1,0 +1,27 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.green-price {
+    color: #28a745;
+}
+
+.nav-custom-bg {
+    background-color: #28a745;
+}
+
+.form-custom-bg {
+    background-color: #28a745;
+}
+
+/* ¡¡BORRAR!! */ /* fa-map-marker-alt.*/
+.colores-muestra {
+    color: #212529;
+    color: #707070;
+    color: #F8F9FA;
+    color: #ffffff;
+    color: #28a745;
+}

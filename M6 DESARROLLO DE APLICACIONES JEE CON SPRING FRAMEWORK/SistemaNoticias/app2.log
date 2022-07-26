@@ -1,0 +1,471 @@
+2022-07-12 11:30:11.805  INFO 2312 --- [main] cl.exql.sn.Application                   : Starting Application using Java 17.0.2 on eThinkPadE14 with PID 2312 (C:\Users\exequ\Documents\Bootcamp\Desafios\Enviados y archivados\SistemaNoticias\target\classes started by exequ in C:\Users\exequ\Documents\Bootcamp\Desafios\Enviados y archivados\SistemaNoticias)
+2022-07-12 11:30:11.813  INFO 2312 --- [main] cl.exql.sn.Application                   : No active profile set, falling back to 1 default profile: "default"
+2022-07-12 11:30:12.984  INFO 2312 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-07-12 11:30:12.995  INFO 2312 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-12 11:30:12.996  INFO 2312 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-12 11:30:13.101  INFO 2312 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-12 11:30:13.101  INFO 2312 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1199 ms
+2022-07-12 11:30:13.332 DEBUG 2312 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-07-12 11:30:13.452 DEBUG 2312 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2022-07-12 11:30:13.476 DEBUG 2312 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-07-12 11:30:13.489 DEBUG 2312 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-07-12 11:30:13.732  INFO 2312 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2022-07-12 11:30:13.779  INFO 2312 --- [main] cl.exql.sn.Application                   : Started Application in 2.551 seconds (JVM running for 3.45)
+2022-07-12 11:30:42.424  INFO 17420 --- [main] cl.exql.sn.Application                   : Starting Application using Java 17.0.2 on eThinkPadE14 with PID 17420 (C:\Users\exequ\Documents\Bootcamp\Desafios\Enviados y archivados\SistemaNoticias\target\classes started by exequ in C:\Users\exequ\Documents\Bootcamp\Desafios\Enviados y archivados\SistemaNoticias)
+2022-07-12 11:30:42.427  INFO 17420 --- [main] cl.exql.sn.Application                   : No active profile set, falling back to 1 default profile: "default"
+2022-07-12 11:30:43.450  INFO 17420 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-07-12 11:30:43.461  INFO 17420 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-12 11:30:43.461  INFO 17420 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-12 11:30:43.580  INFO 17420 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-12 11:30:43.580  INFO 17420 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1095 ms
+2022-07-12 11:30:43.776 DEBUG 17420 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-07-12 11:30:43.864 DEBUG 17420 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2022-07-12 11:30:43.882 DEBUG 17420 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-07-12 11:30:43.889 DEBUG 17420 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-07-12 11:30:44.011  WARN 17420 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8081 is already in use
+2022-07-12 11:30:44.016  INFO 17420 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-07-12 11:30:44.031  INFO 17420 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-07-12 11:30:44.074 ERROR 17420 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8081 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8081 or configure this application to listen on another port.
+
+2022-07-12 11:30:47.798  INFO 2312 --- [RMI TCP Connection(4)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-07-12 11:30:56.463  INFO 14696 --- [main] cl.exql.sn.Application                   : Starting Application using Java 17.0.2 on eThinkPadE14 with PID 14696 (C:\Users\exequ\Documents\Bootcamp\Desafios\Enviados y archivados\SistemaNoticias\target\classes started by exequ in C:\Users\exequ\Documents\Bootcamp\Desafios\Enviados y archivados\SistemaNoticias)
+2022-07-12 11:30:56.468  INFO 14696 --- [main] cl.exql.sn.Application                   : No active profile set, falling back to 1 default profile: "default"
+2022-07-12 11:30:57.622  INFO 14696 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-07-12 11:30:57.646  INFO 14696 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-12 11:30:57.647  INFO 14696 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-12 11:30:57.760  INFO 14696 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-12 11:30:57.760  INFO 14696 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1190 ms
+2022-07-12 11:30:57.954 DEBUG 14696 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-07-12 11:30:58.059 DEBUG 14696 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2022-07-12 11:30:58.082 DEBUG 14696 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-07-12 11:30:58.091 DEBUG 14696 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-07-12 11:30:58.239  INFO 14696 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2022-07-12 11:30:58.252  INFO 14696 --- [main] cl.exql.sn.Application                   : Started Application in 2.383 seconds (JVM running for 3.259)
+2022-07-12 11:31:19.274  INFO 14696 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-07-12 11:31:37.986  INFO 19136 --- [main] cl.exql.sn.Application                   : Starting Application using Java 17.0.2 on eThinkPadE14 with PID 19136 (C:\Users\exequ\Documents\Bootcamp\Desafios\Enviados y archivados\SistemaNoticias\target\classes started by exequ in C:\Users\exequ\Documents\Bootcamp\Desafios\Enviados y archivados\SistemaNoticias)
+2022-07-12 11:31:37.989  INFO 19136 --- [main] cl.exql.sn.Application                   : No active profile set, falling back to 1 default profile: "default"
+2022-07-12 11:31:39.120  INFO 19136 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-07-12 11:31:39.131  INFO 19136 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-12 11:31:39.131  INFO 19136 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-12 11:31:39.237  INFO 19136 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-12 11:31:39.237  INFO 19136 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1185 ms
+2022-07-12 11:31:39.445 DEBUG 19136 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-07-12 11:31:39.551 DEBUG 19136 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2022-07-12 11:31:39.569 DEBUG 19136 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-07-12 11:31:39.579 DEBUG 19136 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-07-12 11:31:39.730  INFO 19136 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2022-07-12 11:31:39.740  INFO 19136 --- [main] cl.exql.sn.Application                   : Started Application in 2.225 seconds (JVM running for 2.984)
+2022-07-12 11:31:43.549  INFO 19136 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-07-12 11:32:15.416  INFO 16708 --- [main] cl.exql.sn.Application                   : Starting Application using Java 17.0.2 on eThinkPadE14 with PID 16708 (C:\Users\exequ\Documents\Bootcamp\Desafios\Enviados y archivados\SistemaNoticias\target\classes started by exequ in C:\Users\exequ\Documents\Bootcamp\Desafios\Enviados y archivados\SistemaNoticias)
+2022-07-12 11:32:15.419  INFO 16708 --- [main] cl.exql.sn.Application                   : No active profile set, falling back to 1 default profile: "default"
+2022-07-12 11:32:16.515  INFO 16708 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-07-12 11:32:16.552  INFO 16708 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-12 11:32:16.552  INFO 16708 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-12 11:32:16.758  INFO 16708 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-12 11:32:16.759  INFO 16708 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1275 ms
+2022-07-12 11:32:17.041 DEBUG 16708 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-07-12 11:32:17.242 DEBUG 16708 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2022-07-12 11:32:17.271 DEBUG 16708 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-07-12 11:32:17.282 DEBUG 16708 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-07-12 11:32:17.434  INFO 16708 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2022-07-12 11:32:17.444  INFO 16708 --- [main] cl.exql.sn.Application                   : Started Application in 2.457 seconds (JVM running for 3.187)
+2022-07-12 11:32:17.857  INFO 16708 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-12 11:32:17.858  INFO 16708 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-12 11:32:17.858 DEBUG 16708 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2022-07-12 11:32:17.859 DEBUG 16708 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2022-07-12 11:32:17.859 DEBUG 16708 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2022-07-12 11:32:17.860 DEBUG 16708 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@7aa19de8
+2022-07-12 11:32:17.860 DEBUG 16708 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@5175c949
+2022-07-12 11:32:17.860 DEBUG 16708 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2022-07-12 11:32:17.861  INFO 16708 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2022-07-12 11:32:17.872 DEBUG 16708 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2022-07-12 11:32:17.878 DEBUG 16708 --- [http-nio-8081-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to cl.exql.sn.MainControlador#Main(Model)
+2022-07-12 11:32:17.925 DEBUG 16708 --- [http-nio-8081-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2022-07-12 11:32:18.340 DEBUG 16708 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-07-12 11:32:26.397 DEBUG 16708 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2022-07-12 11:32:26.398 DEBUG 16708 --- [http-nio-8081-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to cl.exql.sn.MainControlador#Main(Model)
+2022-07-12 11:32:26.400 DEBUG 16708 --- [http-nio-8081-exec-2] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2022-07-12 11:32:26.403 DEBUG 16708 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-07-12 11:32:26.541 DEBUG 16708 --- [http-nio-8081-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/favicon.ico", parameters={}
+2022-07-12 11:32:26.549 DEBUG 16708 --- [http-nio-8081-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2022-07-12 11:32:26.556 DEBUG 16708 --- [http-nio-8081-exec-3] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2022-07-12 11:32:26.556 DEBUG 16708 --- [http-nio-8081-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2022-07-12 11:32:26.564 DEBUG 16708 --- [http-nio-8081-exec-3] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2022-07-12 11:32:26.567 DEBUG 16708 --- [http-nio-8081-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2022-07-12 11:32:26.589 DEBUG 16708 --- [http-nio-8081-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-07-12 11:32:26.591 DEBUG 16708 --- [http-nio-8081-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Tue Jul 12 11:32:26 CLT 2022, status=404, error=Not Found, path=/favicon.ico}]
+2022-07-12 11:32:26.663 DEBUG 16708 --- [http-nio-8081-exec-3] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2022-07-12 11:32:27.484 DEBUG 16708 --- [http-nio-8081-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2022-07-12 11:32:27.485 DEBUG 16708 --- [http-nio-8081-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to cl.exql.sn.MainControlador#Main(Model)
+2022-07-12 11:32:27.486 DEBUG 16708 --- [http-nio-8081-exec-4] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2022-07-12 11:32:27.488 DEBUG 16708 --- [http-nio-8081-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-07-12 11:35:08.469  INFO 16708 --- [RMI TCP Connection(6)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-07-12 11:35:11.988  INFO 14924 --- [main] cl.exql.sn.Application                   : Starting Application using Java 17.0.2 on eThinkPadE14 with PID 14924 (C:\Users\exequ\Documents\Bootcamp\Desafios\Enviados y archivados\SistemaNoticias\target\classes started by exequ in C:\Users\exequ\Documents\Bootcamp\Desafios\Enviados y archivados\SistemaNoticias)
+2022-07-12 11:35:11.992  INFO 14924 --- [main] cl.exql.sn.Application                   : No active profile set, falling back to 1 default profile: "default"
+2022-07-12 11:35:12.944  INFO 14924 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-07-12 11:35:12.955  INFO 14924 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-12 11:35:12.956  INFO 14924 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-12 11:35:13.075  INFO 14924 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-12 11:35:13.075  INFO 14924 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1017 ms
+2022-07-12 11:35:13.267 DEBUG 14924 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-07-12 11:35:13.355 DEBUG 14924 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2022-07-12 11:35:13.377 DEBUG 14924 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-07-12 11:35:13.386 DEBUG 14924 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-07-12 11:35:13.531  INFO 14924 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2022-07-12 11:35:13.542  INFO 14924 --- [main] cl.exql.sn.Application                   : Started Application in 2.04 seconds (JVM running for 2.818)
+2022-07-12 11:35:19.442  INFO 14924 --- [http-nio-8081-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-12 11:35:19.442  INFO 14924 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-12 11:35:19.442 DEBUG 14924 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2022-07-12 11:35:19.442 DEBUG 14924 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2022-07-12 11:35:19.442 DEBUG 14924 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2022-07-12 11:35:19.443 DEBUG 14924 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@31d8adda
+2022-07-12 11:35:19.443 DEBUG 14924 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@5b6645c3
+2022-07-12 11:35:19.444 DEBUG 14924 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2022-07-12 11:35:19.444  INFO 14924 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-07-12 11:35:19.455 DEBUG 14924 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2022-07-12 11:35:19.462 DEBUG 14924 --- [http-nio-8081-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to cl.exql.sn.MainControlador#Main(Model)
+2022-07-12 11:35:19.484 DEBUG 14924 --- [http-nio-8081-exec-2] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2022-07-12 11:35:19.854 DEBUG 14924 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-07-12 11:37:17.559  INFO 14924 --- [RMI TCP Connection(4)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-07-12 11:37:41.493  INFO 3500 --- [main] cl.exql.sn.Application                   : Starting Application using Java 17.0.2 on eThinkPadE14 with PID 3500 (C:\Users\exequ\Documents\Bootcamp\Desafios\Enviados y archivados\SistemaNoticias\target\classes started by exequ in C:\Users\exequ\Documents\Bootcamp\Desafios\Enviados y archivados\SistemaNoticias)
+2022-07-12 11:37:41.497  INFO 3500 --- [main] cl.exql.sn.Application                   : No active profile set, falling back to 1 default profile: "default"
+2022-07-12 11:37:42.741  INFO 3500 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-12 11:37:42.751  INFO 3500 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-12 11:37:42.752  INFO 3500 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-12 11:37:42.897  INFO 3500 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-12 11:37:42.897  INFO 3500 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1318 ms
+2022-07-12 11:37:43.105 DEBUG 3500 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-07-12 11:37:43.276 DEBUG 3500 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2022-07-12 11:37:43.300 DEBUG 3500 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-07-12 11:37:43.319 DEBUG 3500 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-07-12 11:37:43.487  INFO 3500 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-12 11:37:43.498  INFO 3500 --- [main] cl.exql.sn.Application                   : Started Application in 2.415 seconds (JVM running for 3.147)
+2022-07-12 11:37:46.848  INFO 3500 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-12 11:37:46.848  INFO 3500 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-12 11:37:46.848 DEBUG 3500 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2022-07-12 11:37:46.849 DEBUG 3500 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2022-07-12 11:37:46.849 DEBUG 3500 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2022-07-12 11:37:46.850 DEBUG 3500 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@2fe61486
+2022-07-12 11:37:46.851 DEBUG 3500 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@5cd8b4b7
+2022-07-12 11:37:46.851 DEBUG 3500 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2022-07-12 11:37:46.851  INFO 3500 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2022-07-12 11:37:46.860 DEBUG 3500 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2022-07-12 11:37:46.868 DEBUG 3500 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to cl.exql.sn.MainControlador#Main(Model)
+2022-07-12 11:37:46.891 DEBUG 3500 --- [http-nio-8080-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2022-07-12 11:37:47.197 DEBUG 3500 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-07-12 11:37:52.567 DEBUG 3500 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2022-07-12 11:37:52.568 DEBUG 3500 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to cl.exql.sn.MainControlador#Main(Model)
+2022-07-12 11:37:52.569 DEBUG 3500 --- [http-nio-8080-exec-2] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2022-07-12 11:37:52.571 DEBUG 3500 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-07-12 11:38:06.550  INFO 3500 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-07-12 11:45:09.048  INFO 14568 --- [main] cl.exql.sn.Application                   : Starting Application using Java 17.0.2 on eThinkPadE14 with PID 14568 (C:\Users\exequ\Documents\Bootcamp\Desafios\Enviados y archivados\SistemaNoticias\target\classes started by exequ in C:\Users\exequ\Documents\Bootcamp\Desafios\Enviados y archivados\SistemaNoticias)
+2022-07-12 11:45:09.054  INFO 14568 --- [main] cl.exql.sn.Application                   : No active profile set, falling back to 1 default profile: "default"
+2022-07-12 11:45:10.329  INFO 14568 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-12 11:45:10.345  INFO 14568 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-12 11:45:10.345  INFO 14568 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-12 11:45:10.500  INFO 14568 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-12 11:45:10.501  INFO 14568 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1380 ms
+2022-07-12 11:45:10.725 DEBUG 14568 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-07-12 11:45:10.850 DEBUG 14568 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2022-07-12 11:45:10.993 DEBUG 14568 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-07-12 11:45:11.021 DEBUG 14568 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-07-12 11:45:11.200  INFO 14568 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-12 11:45:11.212  INFO 14568 --- [main] cl.exql.sn.Application                   : Started Application in 2.633 seconds (JVM running for 3.525)
+2022-07-12 11:45:26.832  INFO 14568 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-12 11:45:26.833  INFO 14568 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-12 11:45:26.833 DEBUG 14568 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2022-07-12 11:45:26.834 DEBUG 14568 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2022-07-12 11:45:26.834 DEBUG 14568 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2022-07-12 11:45:26.835 DEBUG 14568 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@582bb719
+2022-07-12 11:45:26.835 DEBUG 14568 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@604fa8dd
+2022-07-12 11:45:26.836 DEBUG 14568 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2022-07-12 11:45:26.836  INFO 14568 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2022-07-12 11:45:26.847 DEBUG 14568 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2022-07-12 11:45:26.854 DEBUG 14568 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to cl.exql.sn.MainControlador#Main(Model)
+2022-07-12 11:45:26.873 DEBUG 14568 --- [http-nio-8080-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2022-07-12 11:45:27.187 DEBUG 14568 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-07-12 11:46:08.296  INFO 14568 --- [RMI TCP Connection(4)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-07-12 11:46:12.157  INFO 956 --- [main] cl.exql.sn.Application                   : Starting Application using Java 17.0.2 on eThinkPadE14 with PID 956 (C:\Users\exequ\Documents\Bootcamp\Desafios\Enviados y archivados\SistemaNoticias\target\classes started by exequ in C:\Users\exequ\Documents\Bootcamp\Desafios\Enviados y archivados\SistemaNoticias)
+2022-07-12 11:46:12.160  INFO 956 --- [main] cl.exql.sn.Application                   : No active profile set, falling back to 1 default profile: "default"
+2022-07-12 11:46:13.248  INFO 956 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-12 11:46:13.262  INFO 956 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-12 11:46:13.263  INFO 956 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-12 11:46:13.366  INFO 956 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-12 11:46:13.366  INFO 956 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1139 ms
+2022-07-12 11:46:13.551 DEBUG 956 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-07-12 11:46:13.640 DEBUG 956 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2022-07-12 11:46:13.659 DEBUG 956 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-07-12 11:46:13.671 DEBUG 956 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-07-12 11:46:13.811  INFO 956 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-12 11:46:13.825  INFO 956 --- [main] cl.exql.sn.Application                   : Started Application in 2.143 seconds (JVM running for 3.2)
+2022-07-12 11:46:14.691  INFO 956 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-12 11:46:14.692  INFO 956 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-12 11:46:14.693 DEBUG 956 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2022-07-12 11:46:14.694 DEBUG 956 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2022-07-12 11:46:14.694 DEBUG 956 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2022-07-12 11:46:14.695 DEBUG 956 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@76c0707
+2022-07-12 11:46:14.695 DEBUG 956 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@7c12314a
+2022-07-12 11:46:14.695 DEBUG 956 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2022-07-12 11:46:14.695  INFO 956 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2022-07-12 11:46:14.707 DEBUG 956 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2022-07-12 11:46:14.712 DEBUG 956 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to cl.exql.sn.MainControlador#Main(Model)
+2022-07-12 11:46:14.732 DEBUG 956 --- [http-nio-8080-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2022-07-12 11:46:15.061 DEBUG 956 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-07-12 11:46:17.428 DEBUG 956 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2022-07-12 11:46:17.429 DEBUG 956 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to cl.exql.sn.MainControlador#Main(Model)
+2022-07-12 11:46:17.431 DEBUG 956 --- [http-nio-8080-exec-2] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2022-07-12 11:46:17.434 DEBUG 956 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-07-12 11:46:18.639 DEBUG 956 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2022-07-12 11:46:18.639 DEBUG 956 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to cl.exql.sn.MainControlador#Main(Model)
+2022-07-12 11:46:18.641 DEBUG 956 --- [http-nio-8080-exec-3] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2022-07-12 11:46:18.643 DEBUG 956 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-07-12 11:46:19.324 DEBUG 956 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2022-07-12 11:46:19.326 DEBUG 956 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to cl.exql.sn.MainControlador#Main(Model)
+2022-07-12 11:46:19.328 DEBUG 956 --- [http-nio-8080-exec-4] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2022-07-12 11:46:19.330 DEBUG 956 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-07-12 11:46:19.892 DEBUG 956 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2022-07-12 11:46:19.893 DEBUG 956 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to cl.exql.sn.MainControlador#Main(Model)
+2022-07-12 11:46:19.895 DEBUG 956 --- [http-nio-8080-exec-5] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2022-07-12 11:46:19.898 DEBUG 956 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-07-12 11:46:20.147 DEBUG 956 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2022-07-12 11:46:20.147 DEBUG 956 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to cl.exql.sn.MainControlador#Main(Model)
+2022-07-12 11:46:20.148 DEBUG 956 --- [http-nio-8080-exec-6] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2022-07-12 11:46:20.151 DEBUG 956 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-07-12 11:46:20.403 DEBUG 956 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2022-07-12 11:46:20.405 DEBUG 956 --- [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to cl.exql.sn.MainControlador#Main(Model)
+2022-07-12 11:46:20.406 DEBUG 956 --- [http-nio-8080-exec-7] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2022-07-12 11:46:20.409 DEBUG 956 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-07-12 11:46:20.638 DEBUG 956 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2022-07-12 11:46:20.638 DEBUG 956 --- [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to cl.exql.sn.MainControlador#Main(Model)
+2022-07-12 11:46:20.639 DEBUG 956 --- [http-nio-8080-exec-8] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2022-07-12 11:46:20.641 DEBUG 956 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-07-12 11:46:20.903 DEBUG 956 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2022-07-12 11:46:20.904 DEBUG 956 --- [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to cl.exql.sn.MainControlador#Main(Model)
+2022-07-12 11:46:20.906 DEBUG 956 --- [http-nio-8080-exec-9] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2022-07-12 11:46:20.908 DEBUG 956 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-07-12 11:46:21.143 DEBUG 956 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2022-07-12 11:46:21.144 DEBUG 956 --- [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to cl.exql.sn.MainControlador#Main(Model)
+2022-07-12 11:46:21.147 DEBUG 956 --- [http-nio-8080-exec-10] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2022-07-12 11:46:21.149 DEBUG 956 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-07-12 11:46:21.381 DEBUG 956 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2022-07-12 11:46:21.382 DEBUG 956 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to cl.exql.sn.MainControlador#Main(Model)
+2022-07-12 11:46:21.383 DEBUG 956 --- [http-nio-8080-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2022-07-12 11:46:21.385 DEBUG 956 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-07-12 11:46:21.616 DEBUG 956 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2022-07-12 11:46:21.616 DEBUG 956 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to cl.exql.sn.MainControlador#Main(Model)
+2022-07-12 11:46:21.618 DEBUG 956 --- [http-nio-8080-exec-2] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2022-07-12 11:46:21.623 DEBUG 956 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-07-12 11:46:21.863 DEBUG 956 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2022-07-12 11:46:21.863 DEBUG 956 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to cl.exql.sn.MainControlador#Main(Model)
+2022-07-12 11:46:21.863 DEBUG 956 --- [http-nio-8080-exec-3] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2022-07-12 11:46:21.867 DEBUG 956 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-07-12 11:46:22.145 DEBUG 956 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2022-07-12 11:46:22.146 DEBUG 956 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to cl.exql.sn.MainControlador#Main(Model)
+2022-07-12 11:46:22.148 DEBUG 956 --- [http-nio-8080-exec-4] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2022-07-12 11:46:22.149 DEBUG 956 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-07-12 11:46:22.441 DEBUG 956 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2022-07-12 11:46:22.442 DEBUG 956 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to cl.exql.sn.MainControlador#Main(Model)
+2022-07-12 11:46:22.445 DEBUG 956 --- [http-nio-8080-exec-5] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2022-07-12 11:46:22.448 DEBUG 956 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-07-12 11:46:22.737 DEBUG 956 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2022-07-12 11:46:22.738 DEBUG 956 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to cl.exql.sn.MainControlador#Main(Model)
+2022-07-12 11:46:22.742 DEBUG 956 --- [http-nio-8080-exec-6] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2022-07-12 11:46:22.745 DEBUG 956 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-07-12 11:46:23.307 DEBUG 956 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2022-07-12 11:46:23.308 DEBUG 956 --- [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to cl.exql.sn.MainControlador#Main(Model)
+2022-07-12 11:46:23.310 DEBUG 956 --- [http-nio-8080-exec-8] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2022-07-12 11:46:23.312 DEBUG 956 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-07-12 11:46:24.050 DEBUG 956 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2022-07-12 11:46:24.051 DEBUG 956 --- [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to cl.exql.sn.MainControlador#Main(Model)
+2022-07-12 11:46:24.053 DEBUG 956 --- [http-nio-8080-exec-9] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2022-07-12 11:46:24.056 DEBUG 956 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-07-12 11:46:24.636 DEBUG 956 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2022-07-12 11:46:24.637 DEBUG 956 --- [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to cl.exql.sn.MainControlador#Main(Model)
+2022-07-12 11:46:24.640 DEBUG 956 --- [http-nio-8080-exec-10] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2022-07-12 11:46:24.642 DEBUG 956 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-07-12 11:47:06.758  INFO 956 --- [RMI TCP Connection(4)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-07-12 11:47:10.020  INFO 15536 --- [main] cl.exql.sn.Application                   : Starting Application using Java 17.0.2 on eThinkPadE14 with PID 15536 (C:\Users\exequ\Documents\Bootcamp\Desafios\Enviados y archivados\SistemaNoticias\target\classes started by exequ in C:\Users\exequ\Documents\Bootcamp\Desafios\Enviados y archivados\SistemaNoticias)
+2022-07-12 11:47:10.025  INFO 15536 --- [main] cl.exql.sn.Application                   : No active profile set, falling back to 1 default profile: "default"
+2022-07-12 11:47:11.038  INFO 15536 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-12 11:47:11.047  INFO 15536 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-12 11:47:11.049  INFO 15536 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-12 11:47:11.152  INFO 15536 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-12 11:47:11.152  INFO 15536 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1035 ms
+2022-07-12 11:47:11.348 DEBUG 15536 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-07-12 11:47:11.435 DEBUG 15536 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2022-07-12 11:47:11.456 DEBUG 15536 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-07-12 11:47:11.463 DEBUG 15536 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-07-12 11:47:11.650  INFO 15536 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-12 11:47:11.668  INFO 15536 --- [main] cl.exql.sn.Application                   : Started Application in 2.074 seconds (JVM running for 2.793)
+2022-07-12 11:47:16.518  INFO 15536 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-12 11:47:16.519  INFO 15536 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-12 11:47:16.520 DEBUG 15536 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2022-07-12 11:47:16.521 DEBUG 15536 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2022-07-12 11:47:16.521 DEBUG 15536 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2022-07-12 11:47:16.521 DEBUG 15536 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@52ab2506
+2022-07-12 11:47:16.522 DEBUG 15536 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@35318144
+2022-07-12 11:47:16.523 DEBUG 15536 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2022-07-12 11:47:16.524  INFO 15536 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2022-07-12 11:47:16.542 DEBUG 15536 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2022-07-12 11:47:16.547 DEBUG 15536 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to cl.exql.sn.MainControlador#Main(Model)
+2022-07-12 11:47:16.571 DEBUG 15536 --- [http-nio-8080-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2022-07-12 11:47:16.970 DEBUG 15536 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-07-12 11:47:19.177 DEBUG 15536 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2022-07-12 11:47:19.178 DEBUG 15536 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to cl.exql.sn.MainControlador#Main(Model)
+2022-07-12 11:47:19.180 DEBUG 15536 --- [http-nio-8080-exec-3] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2022-07-12 11:47:19.182 DEBUG 15536 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-07-12 11:47:19.901 DEBUG 15536 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2022-07-12 11:47:19.902 DEBUG 15536 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to cl.exql.sn.MainControlador#Main(Model)
+2022-07-12 11:47:19.903 DEBUG 15536 --- [http-nio-8080-exec-4] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2022-07-12 11:47:19.905 DEBUG 15536 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-07-12 11:47:20.121 DEBUG 15536 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2022-07-12 11:47:20.121 DEBUG 15536 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to cl.exql.sn.MainControlador#Main(Model)
+2022-07-12 11:47:20.124 DEBUG 15536 --- [http-nio-8080-exec-2] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2022-07-12 11:47:20.128 DEBUG 15536 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-07-12 11:48:47.020  INFO 15536 --- [RMI TCP Connection(5)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-07-12 11:48:50.822  INFO 12872 --- [main] cl.exql.sn.Application                   : Starting Application using Java 17.0.2 on eThinkPadE14 with PID 12872 (C:\Users\exequ\Documents\Bootcamp\Desafios\Enviados y archivados\SistemaNoticias\target\classes started by exequ in C:\Users\exequ\Documents\Bootcamp\Desafios\Enviados y archivados\SistemaNoticias)
+2022-07-12 11:48:50.825  INFO 12872 --- [main] cl.exql.sn.Application                   : No active profile set, falling back to 1 default profile: "default"
+2022-07-12 11:48:52.069  INFO 12872 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-12 11:48:52.079  INFO 12872 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-12 11:48:52.080  INFO 12872 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-12 11:48:52.197  INFO 12872 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-12 11:48:52.197  INFO 12872 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1311 ms
+2022-07-12 11:48:52.382 DEBUG 12872 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-07-12 11:48:52.464 DEBUG 12872 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2022-07-12 11:48:52.483 DEBUG 12872 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-07-12 11:48:52.495 DEBUG 12872 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-07-12 11:48:52.631  INFO 12872 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-12 11:48:52.643  INFO 12872 --- [main] cl.exql.sn.Application                   : Started Application in 2.371 seconds (JVM running for 3.151)
+2022-07-12 11:49:54.115  INFO 12872 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-12 11:49:54.115  INFO 12872 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-12 11:49:54.115 DEBUG 12872 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2022-07-12 11:49:54.116 DEBUG 12872 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2022-07-12 11:49:54.116 DEBUG 12872 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2022-07-12 11:49:54.117 DEBUG 12872 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@6bc6c96b
+2022-07-12 11:49:54.118 DEBUG 12872 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@12f48fa0
+2022-07-12 11:49:54.119 DEBUG 12872 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2022-07-12 11:49:54.119  INFO 12872 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2022-07-12 11:49:54.128 DEBUG 12872 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2022-07-12 11:49:54.135 DEBUG 12872 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to cl.exql.sn.MainControlador#Main(Model)
+2022-07-12 11:49:54.157 DEBUG 12872 --- [http-nio-8080-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2022-07-12 11:49:54.446 DEBUG 12872 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-07-12 11:49:55.289 DEBUG 12872 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2022-07-12 11:49:55.290 DEBUG 12872 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to cl.exql.sn.MainControlador#Main(Model)
+2022-07-12 11:49:55.292 DEBUG 12872 --- [http-nio-8080-exec-4] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2022-07-12 11:49:55.295 DEBUG 12872 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-07-12 11:49:55.484 DEBUG 12872 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2022-07-12 11:49:55.485 DEBUG 12872 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to cl.exql.sn.MainControlador#Main(Model)
+2022-07-12 11:49:55.486 DEBUG 12872 --- [http-nio-8080-exec-5] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2022-07-12 11:49:55.488 DEBUG 12872 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-07-12 11:49:55.676 DEBUG 12872 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2022-07-12 11:49:55.676 DEBUG 12872 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to cl.exql.sn.MainControlador#Main(Model)
+2022-07-12 11:49:55.678 DEBUG 12872 --- [http-nio-8080-exec-6] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2022-07-12 11:49:55.680 DEBUG 12872 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-07-12 11:49:55.856 DEBUG 12872 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2022-07-12 11:49:55.856 DEBUG 12872 --- [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to cl.exql.sn.MainControlador#Main(Model)
+2022-07-12 11:49:55.858 DEBUG 12872 --- [http-nio-8080-exec-7] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2022-07-12 11:49:55.860 DEBUG 12872 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-07-12 11:49:56.032 DEBUG 12872 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2022-07-12 11:49:56.032 DEBUG 12872 --- [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to cl.exql.sn.MainControlador#Main(Model)
+2022-07-12 11:49:56.033 DEBUG 12872 --- [http-nio-8080-exec-8] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2022-07-12 11:49:56.035 DEBUG 12872 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-07-12 11:49:56.204 DEBUG 12872 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2022-07-12 11:49:56.204 DEBUG 12872 --- [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to cl.exql.sn.MainControlador#Main(Model)
+2022-07-12 11:49:56.205 DEBUG 12872 --- [http-nio-8080-exec-9] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2022-07-12 11:49:56.207 DEBUG 12872 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-07-12 11:49:56.390 DEBUG 12872 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2022-07-12 11:49:56.390 DEBUG 12872 --- [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to cl.exql.sn.MainControlador#Main(Model)
+2022-07-12 11:49:56.392 DEBUG 12872 --- [http-nio-8080-exec-10] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2022-07-12 11:49:56.394 DEBUG 12872 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-07-12 11:49:56.567 DEBUG 12872 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2022-07-12 11:49:56.568 DEBUG 12872 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to cl.exql.sn.MainControlador#Main(Model)
+2022-07-12 11:49:56.570 DEBUG 12872 --- [http-nio-8080-exec-3] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2022-07-12 11:49:56.572 DEBUG 12872 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-07-12 11:49:56.769 DEBUG 12872 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2022-07-12 11:49:56.770 DEBUG 12872 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to cl.exql.sn.MainControlador#Main(Model)
+2022-07-12 11:49:56.775 DEBUG 12872 --- [http-nio-8080-exec-2] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2022-07-12 11:49:56.780 DEBUG 12872 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-07-12 11:49:56.953 DEBUG 12872 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2022-07-12 11:49:56.955 DEBUG 12872 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to cl.exql.sn.MainControlador#Main(Model)
+2022-07-12 11:49:56.957 DEBUG 12872 --- [http-nio-8080-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2022-07-12 11:49:56.960 DEBUG 12872 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-07-12 11:49:57.152 DEBUG 12872 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2022-07-12 11:49:57.152 DEBUG 12872 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to cl.exql.sn.MainControlador#Main(Model)
+2022-07-12 11:49:57.154 DEBUG 12872 --- [http-nio-8080-exec-4] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2022-07-12 11:49:57.157 DEBUG 12872 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-07-12 11:50:21.437  INFO 12872 --- [RMI TCP Connection(5)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-07-12 11:50:24.793  INFO 17332 --- [main] cl.exql.sn.Application                   : Starting Application using Java 17.0.2 on eThinkPadE14 with PID 17332 (C:\Users\exequ\Documents\Bootcamp\Desafios\Enviados y archivados\SistemaNoticias\target\classes started by exequ in C:\Users\exequ\Documents\Bootcamp\Desafios\Enviados y archivados\SistemaNoticias)
+2022-07-12 11:50:24.796  INFO 17332 --- [main] cl.exql.sn.Application                   : No active profile set, falling back to 1 default profile: "default"
+2022-07-12 11:50:25.756  INFO 17332 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-12 11:50:25.769  INFO 17332 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-12 11:50:25.770  INFO 17332 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-12 11:50:25.896  INFO 17332 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-12 11:50:25.896  INFO 17332 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1039 ms
+2022-07-12 11:50:26.076 DEBUG 17332 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-07-12 11:50:26.162 DEBUG 17332 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2022-07-12 11:50:26.181 DEBUG 17332 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-07-12 11:50:26.189 DEBUG 17332 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-07-12 11:50:26.345  INFO 17332 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-12 11:50:26.358  INFO 17332 --- [main] cl.exql.sn.Application                   : Started Application in 2.024 seconds (JVM running for 2.787)
+2022-07-12 11:50:36.039  INFO 17332 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-12 11:50:36.040  INFO 17332 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-12 11:50:36.040 DEBUG 17332 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2022-07-12 11:50:36.041 DEBUG 17332 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2022-07-12 11:50:36.041 DEBUG 17332 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2022-07-12 11:50:36.041 DEBUG 17332 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@582bb719
+2022-07-12 11:50:36.042 DEBUG 17332 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@604fa8dd
+2022-07-12 11:50:36.042 DEBUG 17332 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2022-07-12 11:50:36.042  INFO 17332 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-07-12 11:50:36.053 DEBUG 17332 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2022-07-12 11:50:36.058 DEBUG 17332 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to cl.exql.sn.MainControlador#Main(Model)
+2022-07-12 11:50:36.072  INFO 17332 --- [http-nio-8080-exec-1] cl.exql.sn.MainControlador               : Se ha completado la carga de noticias
+2022-07-12 11:50:36.082 DEBUG 17332 --- [http-nio-8080-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2022-07-12 11:50:36.354 DEBUG 17332 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-07-12 11:50:53.981 DEBUG 17332 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2022-07-12 11:50:53.982 DEBUG 17332 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to cl.exql.sn.MainControlador#Main(Model)
+2022-07-12 11:50:53.983  INFO 17332 --- [http-nio-8080-exec-3] cl.exql.sn.MainControlador               : Se ha completado la carga de noticias
+2022-07-12 11:50:53.984 DEBUG 17332 --- [http-nio-8080-exec-3] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2022-07-12 11:50:53.988 DEBUG 17332 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-07-12 11:50:57.894  INFO 17332 --- [RMI TCP Connection(4)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-07-12 11:51:00.641  INFO 14352 --- [main] cl.exql.sn.Application                   : Starting Application using Java 17.0.2 on eThinkPadE14 with PID 14352 (C:\Users\exequ\Documents\Bootcamp\Desafios\Enviados y archivados\SistemaNoticias\target\classes started by exequ in C:\Users\exequ\Documents\Bootcamp\Desafios\Enviados y archivados\SistemaNoticias)
+2022-07-12 11:51:00.645  INFO 14352 --- [main] cl.exql.sn.Application                   : No active profile set, falling back to 1 default profile: "default"
+2022-07-12 11:51:01.979  INFO 14352 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-12 11:51:01.996  INFO 14352 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-12 11:51:01.997  INFO 14352 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-12 11:51:02.174  INFO 14352 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-12 11:51:02.174  INFO 14352 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1464 ms
+2022-07-12 11:51:02.428 DEBUG 14352 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-07-12 11:51:02.532 DEBUG 14352 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2022-07-12 11:51:02.548 DEBUG 14352 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-07-12 11:51:02.556 DEBUG 14352 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-07-12 11:51:02.746  INFO 14352 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-12 11:51:02.758  INFO 14352 --- [main] cl.exql.sn.Application                   : Started Application in 2.613 seconds (JVM running for 3.523)
+2022-07-12 11:52:17.295  INFO 14352 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-12 11:52:17.295  INFO 14352 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-12 11:52:17.295 DEBUG 14352 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2022-07-12 11:52:17.295 DEBUG 14352 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2022-07-12 11:52:17.295 DEBUG 14352 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2022-07-12 11:52:17.296 DEBUG 14352 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@77cf98dc
+2022-07-12 11:52:17.296 DEBUG 14352 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@f41d963
+2022-07-12 11:52:17.297 DEBUG 14352 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2022-07-12 11:52:17.297  INFO 14352 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-07-12 11:52:17.308 DEBUG 14352 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2022-07-12 11:52:17.313 DEBUG 14352 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to cl.exql.sn.MainControlador#Main(Model)
+2022-07-12 11:52:17.328  INFO 14352 --- [http-nio-8080-exec-1] cl.exql.sn.MainControlador               : Se ha completado la carga de noticias
+2022-07-12 11:52:17.335 DEBUG 14352 --- [http-nio-8080-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2022-07-12 11:52:17.662 DEBUG 14352 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-07-12 11:53:19.186  INFO 14352 --- [RMI TCP Connection(6)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.

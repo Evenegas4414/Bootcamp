@@ -1,0 +1,135 @@
+* {
+    font-family: 'Cabin', sans-serif;
+    color: #373a3c;
+}
+
+
+.texto-ricomida {
+    font-family: 'Lobster', cursive;
+    color: #ffffff;
+}
+
+.bg-gris {
+    background-color: #373a3c;
+}
+
+.w-20 {
+    max-width: 24%;
+}
+
+hr {
+    border: none;
+    height: 1pt !important; 
+    opacity: 1;
+}
+
+.textos-recetas {
+    letter-spacing: 0.48pt;
+    line-height: 30px;
+}
+
+.texto-footer {
+    font-size: 37pt;
+}
+
+.carousel-indicators{
+    z-index: none;
+    bottom: -50px;
+}
+.carousel-indicators [data-bs-target]{
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background-color: #373a3c;
+}
+
+ /***************************************************************************
+  CSS de codigo fuente boootstrap modificado 
+ ****************************************************************************
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-right: 15%;
+    margin-bottom: 1rem;
+    margin-left: 15%;
+    list-style: none;
+  }
+
+  .carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-right: 15%;
+    margin-bottom: 1rem;
+    margin-left: 15%;
+    list-style: none;
+  }
+  .carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+
+
+    **********************************************************************************
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    **********************************************************************************
+
+
+    padding: 0;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: 0.5;
+    transition: opacity 0.6s ease;
+  }
+  
+  @media (prefers-reduced-motion: reduce) {
+    .carousel-indicators [data-bs-target] {
+      transition: none;
+    }
+  }
+  .carousel-indicators .active {
+    opacity: 1;
+  }
+  
+  .carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 1.25rem;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .carousel-dark .carousel-control-prev-icon,
+  .carousel-dark .carousel-control-next-icon {
+    filter: invert(1) grayscale(100);
+  }
+  .carousel-dark .carousel-indicators [data-bs-target] {
+    background-color: #000;
+  }
+  .carousel-dark .carousel-caption {
+    color: #000;
+  }
+***********************************************************************************/
