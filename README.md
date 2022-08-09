@@ -6,10 +6,10 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-<img src="https://user-images.githubusercontent.com/107861898/183748618-e7ceca0d-7002-4c3a-9873-5b4d3edf8f97.png)">
-  <h3 align="center">Spring Demos</h3>
+<img src="https://getonbrd-prod.s3.amazonaws.com/uploads/users/logo/9007/logo.png">
+  <h3 align="center">Bootcamp Full Stack Java</h3>
   <p align="center">
-    Repositorio para compartir los avances sobre Spring usando libros como apoyo.
+    Repositorio para los desafios del Bootcamp de Edutecno.
     <br />
   </p>
 </div>
@@ -17,18 +17,24 @@
 <details>
   <summary>Contenido</summary>
   <ol>
-    <li><a>Spring ejemplos</a></li>
-    <li><a>Seguridad</a></li>
-    <li><a>En desarrollo...</a></li>
+    <li><a>ORIENTACIÓN AL PERFIL Y METODOLOGÍA DEL CURSO</a></li>
+    <li><a>FUNDAMENTOS DE DESARROLLO FRONT-END</a></li>
+    <li><a>FUNDAMENTOS DE BASES DE DATOS RELACIONALES</a></li>
+    <li><a>FUNDAMENTOS DE PROGRAMACIÓN EN JAVA</a></li>
+    <li><a>DESARROLLO DE APLICACIONES WEB DINÁMICAS JAVA</a></li>
+    <li><a>DESARROLLO DE APLICACIONES JEE CON SPRING FRAMEWORK</a></li>
   </ol>
 </details>
 
 ## Acerca del repositorio
 
-Repositorio creado con el fin de recompilar mis prácticas. Está organizado:
-* Spring: Ejemplos basicos.
-* Seguridad: Aplicaciones que utilizan la seguridad de spring para el accesso y restrinccion.
-* En desarrollo: Se actualizara... 
+Repositorio creado con el fin de recompilar los desafios y pruebas del bootcamp. Está organizado en modulos:
+* M1 ORIENTACIÓN AL PERFIL Y METODOLOGÍA DEL CURSO: Introducción a la programación.
+* M2 FUNDAMENTOS DE DESARROLLO FRONT-END: Creando paginas usando html, css, javascrip y bootstrap.
+* M3 FUNDAMENTOS DE BASES DE DATOS RELACIONALES: Scripts para el manejo de bases de datos con Oracle.
+* M4 FUNDAMENTOS DE PROGRAMACIÓN EN JAVA: Programas con java que incluyen clases, conexión a bases de datos, api, etc.
+* M5 DESARROLLO DE APLICACIONES WEB DINÁMICAS JAVA: Paginas web dinamicas usando JSP y servlets.
+* M6 DESARROLLO DE APLICACIONES JEE CON SPRING FRAMEWORK: Proyectos con spring que tienen seguridad y persistencia.
 
 <p align="right">(<a href="#readme-top">Regresar al inicio</a>)</p>
 
@@ -45,16 +51,11 @@ Lista que muestra las tecnologías empleadas:
 
 <p align="right">(<a href="#readme-top">Regresar al inicio</a>)</p>
 
-### Libros:
-
-- Spring Start Here
-- Spring in Action
-- Spring Security in Action
-
 ### Requisitos
 
 - JDK 8
 - Spring
+- Maven
 
 ### Descargas
 
